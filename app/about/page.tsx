@@ -20,14 +20,14 @@ export default function AboutPage() {
                   creators, brands, and communities build influence and meaning
                   through storytelling powered by human creativity and AI.
                 </p>
-                <p>
+                {/* <p>
                   From managing international talent to launching viral content
                   and unforgettable in-person experiences, we create moments
                   that connect people across borders.
-                </p>
-                <p>
+                </p> */}
+                {/* <p>
                   We are proudly born in the diaspora and built for the world.
-                </p>
+                </p> */}
               </div>
             </section>
 
@@ -37,44 +37,52 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-12">
                 <div className="grid md:grid-cols-2 gap-12">
-                  <div className="h-32">
+                  <div className="h-auto">
                     <h3 className="text-xl font-medium text-navy mb-3">
                       Content Studio
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Hybrid storytelling combining human creativity with AI
-                      tools. From YouTube shows to podcasts, we create
-                      high-output campaigns and experimental formats.
+                      We create and produce original long and short form content
+                      for New Age media platforms (e.g. YouTube, Facebook,
+                      Instagram, TikTok, and podcasts). Our studio specializes
+                      in viral storytelling, educational series, and
+                      entertainment formats that resonate with global audiences.
                     </p>
                   </div>
-                  <div className="h-32">
+                  <div className="h-auto">
                     <h3 className="text-xl font-medium text-navy mb-3">
                       Talent Management
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Global representation for borderless creators. We
-                      specialize in diaspora audience strategy, brand deals,
-                      cross-border collaborations, and creator logistics.
+                      We partner with creators and artist to provide 360°
+                      representation and creator support. We specialize in
+                      regional and fractional representation, diaspora audience
+                      strategy, brand deals, cross-border collaborations,
+                      content production, creator world building, and creator
+                      logistics.
                     </p>
                   </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12">
-                  <div className="h-32">
+                  <div className="h-auto">
                     <h3 className="text-xl font-medium text-navy mb-3">
-                      Feeshnet IRL (Live Events)
+                      Feeshnet IRL
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Bringing online communities into real life through curated
-                      experiences powered by AI-backed insights.
+                      We bring online communities into real life through curated
+                      experiences. From creator events and meetups to workshops,
+                      large-scale events and festivals, we create meaningful
+                      connections that bridge the digital and physical worlds.
                     </p>
                   </div>
-                  <div className="h-32">
+                  <div className="h-auto">
                     <h3 className="text-xl font-medium text-navy mb-3">
-                      Lab & Experiments
+                      Feeshnet Labs
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Content lab and product studio experimenting at the
-                      intersection of AI, Multi-media, community, and culture.
+                      Feeshnet labs is a content lab, creative playground, and
+                      product studio, experimenting at the intersection between
+                      AI, multimedia, community and culture.
                     </p>
                   </div>
                 </div>
