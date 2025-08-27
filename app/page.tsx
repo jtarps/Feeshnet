@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import AnimatedLogo from "@/components/animated-logo"
-import Navbar from "@/components/navbar"
+import AnimatedLogo from "@/components/animated-logo";
+import Navbar from "@/components/navbar";
 
 export default function HomePage() {
   return (
@@ -14,14 +14,11 @@ export default function HomePage() {
           <div className="mb-16">
             <AnimatedLogo />
           </div>
-          <h1 className="text-xl md:text-2xl text-gray-600 font-light leading-relaxed">
-            AI-native Digital media studio and talent agency
-          </h1>
         </div>
       </section>
 
       {/* Simple scroll indicator */}
       {/* <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 text-gray-400 text-sm">Scroll to explore</div> */}
     </div>
-  )
+  );
 }

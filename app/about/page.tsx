@@ -89,7 +89,7 @@ export default function AboutPage() {
               </div>
             </section>
 
-            <section>
+            {/* <section>
               <h2 className="text-3xl font-light text-navy mb-12">
                 Our Founder
               </h2>
@@ -111,8 +111,8 @@ export default function AboutPage() {
                   <p className="text-sm text-gray-600">
                     Leading global creator strategy
                   </p>
-                </div>
-                {/* <div className="text-center">
+                </div> */}
+            {/* <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden">
                     <Image
                       src="/placeholder.svg?height=150&width=150"
@@ -130,7 +130,7 @@ export default function AboutPage() {
                     AI-powered storytelling expert
                   </p>
                 </div> */}
-                {/* <div className="text-center">
+            {/* <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden">
                     <Image
                       src="/placeholder.svg?height=150&width=150"
@@ -148,8 +148,8 @@ export default function AboutPage() {
                     Global talent partnerships
                   </p>
                 </div> */}
-              </div>
-            </section>
+            {/* </div>
+            </section> */}
 
             <section className="border-t border-gray-200 pt-16">
               <h2 className="text-3xl font-light text-navy mb-8">
