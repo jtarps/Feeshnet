@@ -8,7 +8,7 @@ export default function AboutPage() {
 
       <main className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="fade-in space-y-16">
+          <div className="space-y-16">
             <section>
               <h1 className="text-4xl md:text-5xl font-light text-navy mb-8 leading-tight">
                 Powering Global Creators
@@ -151,7 +151,7 @@ export default function AboutPage() {
             {/* </div>
             </section> */}
 
-            <section className="border-t border-gray-200 pt-16">
+            {/* <section className="border-t border-gray-200 pt-16">
               <h2 className="text-3xl font-light text-navy mb-8">
                 Using Creativity to Power Change
               </h2>
@@ -168,7 +168,7 @@ export default function AboutPage() {
                 </a>
                 —a nonprofit driving innovation and opportunity across Africa.
               </p>
-            </section>
+            </section> */}
           </div>
         </div>
       </main>

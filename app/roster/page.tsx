@@ -89,7 +89,7 @@ export default function RosterPage() {
 
       <main className="pt-32 pb-20">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
-          <div className="fade-in">
+          <div>
             <h1 className="text-4xl md:text-5xl font-light text-navy mb-16 text-center">
               Our Roster
             </h1>

@@ -10,7 +10,7 @@ export default function ServicesPage() {
 
       <main className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="fade-in space-y-16">
+          <div className="space-y-16">
             <section className="text-center">
               <h1 className="text-4xl md:text-5xl font-light text-navy mb-8">
                 Services
