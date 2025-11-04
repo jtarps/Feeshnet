@@ -15,10 +15,13 @@ export default function AboutPage() {
               </h1>
               <div className="text-xl text-gray-700 space-y-6 leading-relaxed">
                 <p>
-                  Feeshnet Media is a next-generation media company built at the
-                  intersection of content, culture, and technology. We help
-                  creators, brands, and communities build influence and meaning
-                  through storytelling powered by human creativity and AI.
+                  Feeshnet Media connects creators with opportunities beyond
+                  their local markets and helps companies tell compelling
+                  stories. Our focus is twofold: cross‑border influencer
+                  partnerships—linking creators (especially across Africa and
+                  the diaspora) with brands in North America—and
+                  end‑to‑end marketing, content, and branding for companies,
+                  including hiring and running content teams.
                 </p>
                 {/* <p>
                   From managing international talent to launching viral content
@@ -39,50 +42,23 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-2 gap-12">
                   <div className="h-auto">
                     <h3 className="text-xl font-medium text-navy mb-3">
-                      Content Studio
+                      Cross‑Border Influencer Partnerships
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      We create and produce original long and short form content
-                      for New Age media platforms (e.g. YouTube, Facebook,
-                      Instagram, TikTok, and podcasts). Our studio specializes
-                      in viral storytelling, educational series, and
-                      entertainment formats that resonate with global audiences.
+                      We connect global creators with brands outside their local markets. Creators
+                      gain access to better‑funded campaigns and new audiences,
+                      while brands reach diaspora communities with culturally
+                      fluent storytellers.
                     </p>
                   </div>
                   <div className="h-auto">
                     <h3 className="text-xl font-medium text-navy mb-3">
-                      Talent Management
+                      Marketing, Content & Branding
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      We partner with creators and artist to provide 360°
-                      representation and creator support. We specialize in
-                      regional and fractional representation, diaspora audience
-                      strategy, brand deals, cross-border collaborations,
-                      content production, creator world building, and creator
-                      logistics.
-                    </p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-12">
-                  <div className="h-auto">
-                    <h3 className="text-xl font-medium text-navy mb-3">
-                      Feeshnet IRL
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      We bring online communities into real life through curated
-                      experiences. From creator events and meetups to workshops,
-                      large-scale events and festivals, we create meaningful
-                      connections that bridge the digital and physical worlds.
-                    </p>
-                  </div>
-                  <div className="h-auto">
-                    <h3 className="text-xl font-medium text-navy mb-3">
-                      Feeshnet Labs
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      Feeshnet labs is a content lab, creative playground, and
-                      product studio, experimenting at the intersection between
-                      AI, multimedia, community and culture.
+                      We plan, produce, and manage marketing and content
+                      end‑to‑end for companies. We hire and run dedicated content teams (video
+                      editors, graphic designers, and more) for healthcare and service-based businesses.
                     </p>
                   </div>
                 </div>
