@@ -6,16 +6,15 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Feeshnet Media - AI-Native Talent & Media Company",
+  title: "Feeshnet — Building products that solve real problems",
   description:
-    "Powering Global Creators with AI-Native Storytelling. We help creators, brands, and communities build influence through storytelling powered by human creativity and AI.",
-  keywords: "talent management, influencer marketing, AI content, media company, creators",
+    "Feeshnet is a collective of AI-native ventures — from healthcare operations to education technology. One founder. Many solutions.",
+  keywords: "feeshnet, ventures, AI operations, healthcare, edtech, govtech, startups",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -27,8 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

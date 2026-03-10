@@ -1,150 +1,111 @@
+"use client";
+
 import Navbar from "@/components/navbar";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-cream">
-      <Navbar alwaysHamburger={true} />
+      <Navbar />
 
-      <main className="pt-32 pb-20">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="space-y-16">
-            <section>
-              <h1 className="text-4xl md:text-5xl font-light text-navy mb-8 leading-tight">
-                Powering Global Creators
-              </h1>
-              <div className="text-xl text-gray-700 space-y-6 leading-relaxed">
-                <p>
-                  Feeshnet Media connects creators with opportunities beyond
-                  their local markets and helps companies tell compelling
-                  stories. Our focus is twofold: cross‑border influencer
-                  partnerships—linking creators (especially across Africa and
-                  the diaspora) with brands in North America—and
-                  end‑to‑end marketing, content, and branding for companies,
-                  including hiring and running content teams.
-                </p>
-                {/* <p>
-                  From managing international talent to launching viral content
-                  and unforgettable in-person experiences, we create moments
-                  that connect people across borders.
-                </p> */}
-                {/* <p>
-                  We are proudly born in the diaspora and built for the world.
-                </p> */}
-              </div>
-            </section>
+      <main className="pt-32 pb-24">
+        <div className="max-w-4xl mx-auto px-6">
+          {/* Back link */}
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-sm text-navy/40 hover:text-orange transition-colors mb-12 tracking-wider uppercase"
+          >
+            <ArrowLeft size={16} />
+            Back
+          </Link>
 
-            <section>
-              <h2 className="text-3xl font-light text-navy mb-12">
-                What We Do
-              </h2>
-              <div className="space-y-12">
-                <div className="grid md:grid-cols-2 gap-12">
-                  <div className="h-auto">
-                    <h3 className="text-xl font-medium text-navy mb-3">
-                      Cross‑Border Influencer Partnerships
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      We connect global creators with brands outside their local markets. Creators
-                      gain access to better‑funded campaigns and new audiences,
-                      while brands reach diaspora communities with culturally
-                      fluent storytellers.
-                    </p>
-                  </div>
-                  <div className="h-auto">
-                    <h3 className="text-xl font-medium text-navy mb-3">
-                      Marketing, Content & Branding
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      We plan, produce, and manage marketing and content
-                      end‑to‑end for companies. We hire and run dedicated content teams (video
-                      editors, graphic designers, and more) for healthcare and service-based businesses.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
+          {/* Header */}
+          <div className="mb-16">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-navy mb-6">
+              One person. Many problems.
+              <br />
+              <span className="text-orange">Many solutions.</span>
+            </h1>
+          </div>
 
-            {/* <section>
-              <h2 className="text-3xl font-light text-navy mb-12">
-                Our Founder
-              </h2>
-              <div className="grid md:grid-cols-3 gap-12">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden">
-                    <Image
-                      src="/jaydee_point.jpg"
-                      alt="Jaydee Tarpeh - Founder & Chairman"
-                      width={150}
-                      height={150}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <h3 className="text-lg font-medium text-navy mb-1">
-                    Jaydee Tarpeh
-                  </h3>
-                  <p className="text-orange mb-2">Founder & Chairman</p>
-                  <p className="text-sm text-gray-600">
-                    Leading global creator strategy
-                  </p>
-                </div> */}
-            {/* <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden">
-                    <Image
-                      src="/placeholder.svg?height=150&width=150"
-                      alt="Team Member"
-                      width={150}
-                      height={150}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <h3 className="text-lg font-medium text-navy mb-1">
-                    Marcus Chen
-                  </h3>
-                  <p className="text-orange mb-2">Head of Content</p>
-                  <p className="text-sm text-gray-600">
-                    AI-powered storytelling expert
-                  </p>
-                </div> */}
-            {/* <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden">
-                    <Image
-                      src="/placeholder.svg?height=150&width=150"
-                      alt="Team Member"
-                      width={150}
-                      height={150}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <h3 className="text-lg font-medium text-navy mb-1">
-                    Amara Okafor
-                  </h3>
-                  <p className="text-orange mb-2">VP of Talent</p>
-                  <p className="text-sm text-gray-600">
-                    Global talent partnerships
-                  </p>
-                </div> */}
-            {/* </div>
-            </section> */}
-
-            {/* <section className="border-t border-gray-200 pt-16">
-              <h2 className="text-3xl font-light text-navy mb-8">
-                Using Creativity to Power Change
-              </h2>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                We believe media can inspire global transformation. That's why
-                10% of all revenue goes to the{" "}
-                <a
-                  href="https://www.reimagineafrica.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange font-medium hover:text-navy transition-colors"
-                >
-                  Reimagine Africa Foundation
-                </a>
-                —a nonprofit driving innovation and opportunity across Africa.
+          {/* Photo + intro */}
+          <div className="grid md:grid-cols-[300px_1fr] gap-12 mb-20">
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-navy/5">
+              <Image
+                src="/jaydee_mini.jpg"
+                alt="Jaydee"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="flex flex-col justify-center">
+              <h2 className="text-2xl font-semibold text-navy mb-4">Jaydee Tarpeh</h2>
+              <p className="text-sm text-orange font-medium tracking-wider uppercase mb-6">
+                Founder & Product Manager
               </p>
-            </section> */}
+              <div className="space-y-4 text-navy/60 leading-relaxed">
+                <p>
+                  Feeshnet is the holding company for everything I build. Each venture starts
+                  with a problem I&apos;ve personally experienced or observed — and each one is
+                  designed to run with minimal human overhead.
+                </p>
+                <p>
+                  I&apos;m the product manager across all ventures. I set the vision, define what
+                  gets built, and make the critical decisions. But the day-to-day operations?
+                  That&apos;s handled by AI agents and automated systems — with humans in the loop
+                  only where it matters.
+                </p>
+                <p>
+                  The goal isn&apos;t to build a dozen companies for the sake of it. It&apos;s to
+                  solve real problems with products that can sustain themselves — from healthcare
+                  operations in Ontario to visa processing in West Africa to education access
+                  in developing countries.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Philosophy blocks */}
+          <div className="grid md:grid-cols-2 gap-8 mb-20">
+            {[
+              {
+                title: "AI-Native Operations",
+                body: "Every venture is designed from day one to be operated by AI agents. The human (me) is the product manager, not the operator. Agents handle scheduling, reminders, document drafting, billing, and coordination.",
+              },
+              {
+                title: "Human-Assisted AI",
+                body: "AI doesn't replace human judgment — it eliminates busywork. Humans stay in the loop for approvals, sign-offs, and decisions that require context only a person can provide.",
+              },
+              {
+                title: "Problem-First Building",
+                body: "No venture exists because the technology is cool. Each one starts with a specific, painful problem — usually one I've lived through myself. The tech is just how we solve it.",
+              },
+              {
+                title: "One PM, Many Products",
+                body: "Traditional companies need teams of managers. With AI-native operations, one product manager can oversee multiple ventures simultaneously — as long as the systems are built right.",
+              },
+            ].map((block) => (
+              <div
+                key={block.title}
+                className="bg-white rounded-2xl p-8 border border-gray-100"
+              >
+                <h3 className="text-lg font-semibold text-navy mb-3">{block.title}</h3>
+                <p className="text-sm text-navy/50 leading-relaxed">{block.body}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* CTA */}
+          <div className="text-center py-12 border-t border-navy/10">
+            <p className="text-navy/40 text-sm tracking-wider uppercase mb-4">Get in touch</p>
+            <a
+              href="mailto:hello@feeshnet.com"
+              className="inline-block px-8 py-3 bg-navy text-white rounded-full text-sm font-medium hover:bg-navy/90 transition-colors"
+            >
+              hello@feeshnet.com
+            </a>
           </div>
         </div>
       </main>
